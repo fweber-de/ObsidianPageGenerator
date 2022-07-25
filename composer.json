@@ -1,0 +1,22 @@
+{
+    "name": "fweber/obs-pager",
+    "autoload": {
+        "psr-4": {
+            "ObsPager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florian Weber",
+            "email": "git@fweber.info"
+        }
+    ],
+    "require": {
+        "php": "~7.4",
+        "symfony/console": "^5.4",
+        "erusev/parsedown": "^1.7",
+        "ext-json": "*",
+        "twig/twig": "3.0",
+        "symfony/yaml": "^5.4"
+    }
+}
